@@ -1,0 +1,21 @@
+Upload the file filedata.xlsx
+------------------------------
+file-uploader.exe --environment PROD --file filedata.xlsx --connectorid 4338384036 --key atmzNDM1MTA2NzdsesMKDKFSFHSFDDIzFBR085WFhJTEtfTFDMCOUERYD==
+
+
+Check Transaction number 556842875315
+--------------------------------------
+
+file-uploader.exe --environment PROD --connectorid 4338384036 --key atmzNDM1MTA2NzdsesMKDKFSFHSFDDIzFBR085WFhJTEtfTFDMCOUERYD== --debug ULTRA --transchk 556842875315
+
+
+Before uploading files or checking transactions, contact Authomize to obtain a ConnectorID and a Token. 
+
+Linux Version MD5:
+------------------
+bf09ce5d7396819d951b76979e8ea411
+
+
+Windows Version MD5:
+--------------------
+c8a6e338b26aad2937a28a17c3eab061

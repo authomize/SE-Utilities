@@ -1,0 +1,4 @@
+Copy to the destination folder and set execution privileges:
+
+
+chmod 555 file-uploader-b1.0
